@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student form</title>
+</head>
+<body>
+  <h1 style="text-align: center; font-family:sans-serif;">STUDENT FORM</h1>
+
+<center>
+  <table id="myTable" border="2" style="padding: 8px; font-family: sans-serif;">
+    <tr>
+        <th>Name</th>
+        <th><input type="text"></th>
+    </tr>
+    <tr>
+      <th>Age</th>
+      <th><input type="number"></th>
+    </tr>
+   <tr>
+    <th>Gender</th>
+    <th><label for="male"> <input type="radio" id="male" name="gender" value="male"> Male </label><label for="female"> <input type="radio" id="female" name="gender" value="female"> Female </label></th>
+   </tr>
+   <tr>
+    <th>Course</th>
+   <th><select><option value="">Java script</option>
+   <option value="">HTML</option>
+   <option value="">CSS</option></select></th>
+   </tr>
+   <tr>
+    <th>Email</th>
+    <th><input type="email"></th>
+   </tr>
+   <tr >
+    <th id="tt" colspan="2" style="cursor: pointer; background-color: aqua;">Save</th>
+  
+  </tr>
+
+
+</table>
+
+<table id="table" border="1" style="margin-top: 5%; padding: 2px; display: none;">
+  <tr>
+    <th>NAME</th> <th>AGE</th><th>COURSE</th> <th>GENDER</th> <th>EMAIL</th> <th>ACTION</th>
+   </tr>
+   <tr>
+    <td>Amal</td> <td>22</td> <td>Python</td> <td>Male</td> <td>amal08@gmail.com</td> <td colspan="3" style="padding:3px ; background-color: red; cursor: pointer; color: white;">Delete</td>
+   </tr>
+   <tr>
+    <td>Amal</td> <td>22</td> <td>Python</td> <td>Male</td> <td>amal08@gmail.com</td> <td colspan="3" style="padding:3px ; background-color: red; cursor: pointer; color: white;">Delete</td>
+   </tr>
+</table>
+
+
+<script src="./script.js"></script>
+
+</center>
+  
+
+  
+
+
+   
+
+
+</body>
+</html>
